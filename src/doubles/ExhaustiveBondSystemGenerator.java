@@ -217,6 +217,7 @@ public class ExhaustiveBondSystemGenerator extends AbstractBondSystemGenerator {
             int currentRing, List<IRing> rings, Solution currentSolution) {
         if (currentRing >= rings.size()) {
             solutions.add(currentSolution);
+            System.out.println("solution = " + currentSolution);
             return;
         }
         
