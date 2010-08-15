@@ -143,6 +143,7 @@ public class ExhaustiveBondSystemGenerator extends AbstractBondSystemGenerator {
     }
     
     public ExhaustiveBondSystemGenerator(AllRingsFinder ringfinder) {
+        super();
         initialize();
         this.ringFinder = ringfinder;
     }
